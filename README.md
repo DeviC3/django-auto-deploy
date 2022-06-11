@@ -29,4 +29,4 @@ curl https://raw.githubusercontent.com/DeviC3/django-auto-deploy/master/djangobu
 - **myprojectdir** - base project directory
 - **domainName** - domain name or IP address (default id IP to fill ALLOWED_HOSTS variable)
 
-3. Use it ```bash djangodeploy.sh```
+3. Use it ```bash djangobuild.sh```
