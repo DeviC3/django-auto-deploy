@@ -20,13 +20,18 @@ or
 curl https://raw.githubusercontent.com/DeviC3/django-auto-deploy/master/djangobuild.sh -o djangobuild.sh
 ```
 
+or autoinstall from Github
+
+```
+bash -c "$(curl https://raw.githubusercontent.com/DeviC3/django-auto-deploy/master/djangobuild.sh )" -s dbusername dbname dbpassword project_name
+```
+
+
 2. Customize variables:
 
 - **dbuser** - database username
 - **dbname** - database name
 - **dbpassword** - database password
-- **venv** - virtualenv name adn projectname
-- **myprojectdir** - base project directory
-- **domainName** - domain name or IP address (default id IP to fill ALLOWED_HOSTS variable)
+- **venv** - virtualenv name as projectname
 
-3. Use it ```bash djangobuild.sh```
+3. Use it ```bash djangobuild.sh dbusername dbname dbpassword project_name```

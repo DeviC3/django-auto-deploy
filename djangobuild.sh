@@ -6,10 +6,10 @@
 #   Github: https://github.com/DeviC3/django-auto-deploy    #
 #############################################################
 
-dbuser="dbuser"
-dbname="project"
-dbpassword="password"
-venv="project"
+dbuser=$1
+dbname=$2
+dbpassword=$3
+venv=$4
 myprojectdir=/home/"$venv"
 domainName=$(hostname --ip-address)
 secretkey=$(openssl rand -base64 32)
