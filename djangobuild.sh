@@ -6,7 +6,7 @@
 #   Github: https://github.com/DeviC3/django-auto-deploy    #
 #############################################################
 
-set -e
+
 
 dbuser="dbuser"
 dbname="project"
